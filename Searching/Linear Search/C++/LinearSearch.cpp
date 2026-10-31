@@ -1,4 +1,6 @@
-int linear_search(vector<int> nums, int target){
+#include <vector>
+
+int linear_search(const std::vector<int>& nums, int target){
 	int n = nums.size();
 	for (int i = 0; i < n; i++) {
 		if (nums[i] == target)
@@ -7,6 +9,3 @@ int linear_search(vector<int> nums, int target){
 	return -1;
 }
 
-int main(){
-	
-}

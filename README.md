@@ -24,6 +24,17 @@ python3 "Searching/Binary Search/Python/BinarySearch.py"
 
 Each example is independent. C++ and Java examples require their corresponding compiler; some files implement functions only and need a small driver to run. Binary search expects sorted input.
 
+### Check the C++ implementations
+
+With a C++17 compiler, run from the repository root:
+
+```bash
+g++ -std=c++17 -Wall -Wextra -Werror tests/algorithms_test.cpp -o /tmp/algorithms-test
+/tmp/algorithms-test
+```
+
+The checks cover shortest paths, disconnected vertices, large distances, invalid graph inputs, empty/singleton sorting, and linear search. Dijkstra accepts a 0-based adjacency list and rejects negative weights. Unreachable distances are `std::numeric_limits<long long>::max()`.
+
 # Overview 
 * The main goal of this project is to promote open-source, allowing anyone who wants to contribute.
 * This repository would be focused on data structure and algorithms in different languages.
@@ -60,3 +71,4 @@ If you want a more detailed explanation, please visit [here](https://github.com/
 # Maintainers / Collaborators:
 1. @Taneesha-creates
 2. @deepansha-singh
+
