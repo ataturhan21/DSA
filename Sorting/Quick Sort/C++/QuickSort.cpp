@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <vector>
 using namespace std;
 
 void swap(int* a, int* b)
@@ -49,8 +49,8 @@ vector<int> quickSort(vector<int>& arr, int l, int r)// taking vector<int> array
 		quickSort(arr, l, pi - 1);
 		quickSort(arr, pi + 1, r);
 
-		return arr;
 	}
+	return arr;
 }
 
 
@@ -67,7 +67,8 @@ Array elements after applying Quick Sort:
 10 12 26 53 55 78 91
 ```
 
-**TIME COMPLEXITY:** O(nlogn)
-**SPACE COMPLEXITY:** O(1)
+**TIME COMPLEXITY:** O(n log n) average, O(n^2) worst case
+**SPACE COMPLEXITY:** O(log n) average, O(n) worst-case recursion depth
 
 */
+

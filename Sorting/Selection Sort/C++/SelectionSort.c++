@@ -1,4 +1,5 @@
 #include<iostream>
+#include<vector>
 
 using namespace std;
  
@@ -37,4 +38,5 @@ Output for above input
 TIME COMPLEXITY: O(n^2)  
 SPACE COMPLEXITY: O(1)
 */
+
 
