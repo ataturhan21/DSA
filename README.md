@@ -1,6 +1,29 @@
 ![Codechef Logo](https://user-images.githubusercontent.com/77433608/136649361-89697879-7105-44d2-83cc-5af4eb1e6f40.png)
 # DSA
 
+This is Ata Turhan's fork of [CodeChefMUST/Algorithms](https://github.com/CodeChefMUST/Algorithms). Original community credits and contribution guidelines are preserved below.
+
+## Explore the algorithms
+
+| Area | Available material |
+| --- | --- |
+| [Searching](Searching/) | Binary search in C++, Java, and Python; linear search in C++ and Java |
+| [Sorting](Sorting/) | Bubble sort, quicksort, and selection sort examples |
+| [Graph algorithms](Graph%20Algorithms/) | Dijkstra implementation |
+| [Dynamic programming](Dynamic%20Programming/) | Knapsack explanation |
+| [Tree traversal](Traversal%20Algorithms/Tree%20Traversals/) | Binary-tree inorder traversal |
+| [Contribution guide](Contribution%20guidelines.md) | Submission expectations and repository conventions |
+
+### Run a Python example
+
+From the repository root with Python 3 installed:
+
+```bash
+python3 "Searching/Binary Search/Python/BinarySearch.py"
+```
+
+Each example is independent. C++ and Java examples require their corresponding compiler; some files implement functions only and need a small driver to run. Binary search expects sorted input.
+
 # Overview 
 * The main goal of this project is to promote open-source, allowing anyone who wants to contribute.
 * This repository would be focused on data structure and algorithms in different languages.
